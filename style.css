@@ -1,0 +1,145 @@
+.brown{
+    height: 600px;
+    width: 10px;
+    background-color: brown;
+    position: absolute;
+    top: 38px;
+    left: 163px;
+}
+.rectangle1{
+    height: 30px;
+    width: 100px;
+    background-color:brown ;
+    position: fixed;
+    top: 638px;
+    left: 120px;
+}
+.rectangle2{
+    height: 30px;
+    width: 200px;
+    background-color:brown ;
+    position: fixed;
+    top: 668px;
+    left: 72px;
+}
+.rectangle3{
+    height: 30px;
+    width: 300px;
+    background-color:brown ;
+    position: fixed;
+    top: 698px;
+    left: 25px;
+}
+.rectangle{
+    background-color: brown;
+    height: 8px;
+    width: 10px;
+    position: absolute;
+    top: 30px;
+    left: 163px;
+}
+.triangle{
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 10px solid brown ;
+    position: absolute;
+    top: 22px;
+    left: 163px;
+}
+.orange{
+    height: 66.67px;
+    width: 300px;
+    background-color: #ff671f;
+    position: absolute;
+    top: 38px;
+    left: 173px;
+}
+.white{
+    height: 66.67px;
+    width: 300px;
+    background-color: #ffffff;
+    position: relative;
+    top: 66.67px;
+}
+.circle{
+    height: 60px;
+    width: 60px;
+    border-radius: 45px;
+    border: 4px solid #06038d;
+    margin: 0 ;
+    position: absolute;
+    left: 120px;
+}
+.line{
+    height: 100%;
+    width: 2px;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    background: #06038d;
+}
+.line:nth-child(1) {
+    transform: rotate(15deg);
+}
+.line:nth-child(2) {
+    transform: rotate(30deg);
+}
+.line:nth-child(3) {
+    transform: rotate(45deg);
+}
+.line:nth-child(4) {
+    transform: rotate(60deg);
+}
+.line:nth-child(5) {
+    transform: rotate(75deg);
+}
+.line:nth-child(6) {
+    transform: rotate(90deg);
+}
+.line:nth-child(7) {
+    transform: rotate(105deg);
+}
+.line:nth-child(8) {
+    transform: rotate(120deg);
+}
+.line:nth-child(9) {
+    transform: rotate(135deg);
+}
+.line:nth-child(10) {
+    transform: rotate(150deg);
+}
+
+.line:nth-child(11) {
+    transform: rotate(165deg);
+}
+.line:nth-child(12) {
+    transform: rotate(180deg);
+}
+
+
+
+.green{
+    height: 66.67px;
+    width: 300px;
+    background-color: #046a38;
+    position: relative;
+    top: 66.67px;
+}
+
+.circle{
+    animation: wheel;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+}
+@keyframes wheel {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    
+}
